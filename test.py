@@ -1,10 +1,10 @@
 import os, subprocess
 
 # Settings
-TEST_DIR = "/tests"         # directory with our program
+TEST_DIR = "."              # current directory with our program
 CODE_FILE = "main.c"        # our c code
 COMPILER_TIMEOUT = 10.0     # compiler timeout (seconds)
-RUN_TIMEOUT = 10.0         # Run timeout (seconds)
+RUN_TIMEOUT = 10.0          # Run timeout (seconds)
 
 # Create absolute paths
 code_path = os.path.join(TEST_DIR, CODE_FILE)
